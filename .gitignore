@@ -1,0 +1,77 @@
+# AI and Mental Health Study - Git Ignore File
+
+# Sensitive Research Data
+Data Collection/Sessions/*/Transcript.docx
+Data Collection/Sessions/*/Picked prompts.txt
+Study Documentation/*.docx
+Study Documentation/*.pdf
+
+# Personal Information
+*participant*
+*personal*
+*identifiable*
+*contact*
+
+# Assessment Data (Raw Scores)
+*raw_data*
+*participant_scores*
+*individual_data*
+
+# Temporary Files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Backup Files
+*.bak
+*.backup
+*_backup
+
+# Log Files
+*.log
+logs/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Research Software Files
+*.sav
+*.spss
+*.rdata
+*.rds
+
+# Document Versions
+*_v1*
+*_v2*
+*_draft*
+*_final*
+
+# Confidential Documents
+*confidential*
+*private*
+*internal*
+
+# Data Analysis Files (if containing raw data)
+analysis/raw/
+analysis/temp/
+analysis/output/
+
+# Notes: 
+# - Keep README.md, project documentation, and protocol files
+# - Keep assessment tool PDFs (standardized measures)
+# - Keep directory structure and documentation
+# - Remove any files containing actual participant data before pushing to GitHub
